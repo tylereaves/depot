@@ -45,7 +45,8 @@ end
 # gem 'debugger', group: [:development, :test]
 
 #http://www.codebeerstartups.com/2013/04/must-have-gems-for-development-machine-in-ruby-on-rails/
-
+gem "minitest"
+gem "minitest-reporters", '>= 0.5.0'
 gem 'thin'
 gem "better_errors"
 gem "annotate"
