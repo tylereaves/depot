@@ -51,14 +51,8 @@ gem 'thin'
 gem "better_errors"
 gem "annotate"
 gem 'slim-rails'
-gem "bullet"
-gem "flay"
-gem "hirb"
-gem "lol_dba"
 gem "mailcatcher"
 gem "meta_request"
 gem 'quiet_assets'
 gem 'rack-mini-profiler'
 gem 'rails-footnotes', github: 'josevalim/rails-footnotes'
-gem 'reek'
-gem "binding_of_caller"
