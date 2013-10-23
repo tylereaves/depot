@@ -57,3 +57,4 @@ gem 'quiet_assets'
 gem 'rack-mini-profiler'
 gem 'rails-footnotes', github: 'josevalim/rails-footnotes'
 gem "binding_of_caller"
+gem "zurb-foundation"

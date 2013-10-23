@@ -10,4 +10,51 @@
  *
  *= require_self
  *= require_tree .
+ *= require foundation_and_overrides
  */
+
+#banner {
+  background: #9c9;
+  border-bottom: 2px solid;
+
+  color: #282;
+  .banner-title {
+    text-align: center;
+    font: small-caps xx-large " Times New Roman ", serif;
+
+  }
+
+  img {
+    float: left;
+  }
+
+}
+
+body {
+  background: #141 !important;
+}
+
+#main-area {
+  background: #141;
+
+  #main {
+    background: white;
+  }
+
+}
+
+#side {
+  background: #141;
+
+  li {
+    a {
+      color: #bfb !important;
+    }
+  }
+
+}
+
+#footnotes_debug {
+  background: #fff;
+  border: 2px solid #333;
+}

@@ -8,4 +8,4 @@ h1 Your Pragmatic Catalog
     h3 = product.title
     = sanitize(product.description)
     div.price_line
-      span.price = product.price
+      span.price = number_to_currency(product.price)
