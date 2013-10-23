@@ -5,8 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-
-
 Product.delete_all
 Product.create!(title: 'CoffeeScript',
                 description:
@@ -17,7 +15,7 @@ Product.create!(title: 'CoffeeScript',
 	shows you how to hold onto all the power and flexibility of JavaScript
 	while writing clearer, cleaner, and safer code.
       </p>},
-                image_url: 'cs.jpg',
+                image_url:   'cs.jpg',
                 price: 36.00)
 # . . .
 Product.create!(title: 'Programming Ruby 1.9 & 2.0',
