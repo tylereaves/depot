@@ -12,6 +12,8 @@
  * 
  *= require_self
  *= require_tree .
+
+  *= require jquery.ui.all
  */
 
 #banner {
@@ -20,7 +22,8 @@
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
   color: #282;
-  text-align: center;                                                                        def
+  text-align: center;
+  def
 
   img {
     float: left;
@@ -45,34 +48,34 @@
     background: white;
   }
 
-//#START:side
+  //#START:side
   #side {
     float: left;
     padding: 1em 2em;
     width: 13em;
     background: #141;
 
-/* START_HIGHLIGHT */
+    /* START_HIGHLIGHT */
     form, div {
       display: inline;
-    }  
- 
+    }
+
     input {
       font-size: small;
     }
 
     #cart {
       font-size: smaller;
-      color:     white;
+      color: white;
 
       table {
-        border-top:    1px dotted #595;
+        border-top: 1px dotted #595;
         border-bottom: 1px dotted #595;
         margin-bottom: 10px;
       }
     }
 
-/* END_HIGHLIGHT */
+    /* END_HIGHLIGHT */
     ul {
       padding: 0;
 
@@ -86,7 +89,7 @@
       }
     }
   }
-//#END:side
+  //#END:side
 }
 
 //#START:form
@@ -125,6 +128,7 @@
     }
   }
 }
+
 //#END:form
 
 /* START:i18n */
@@ -132,4 +136,5 @@
   float: right;
   margin: -0.25em 0.1em;
 }
+
 /* END:i18n */
